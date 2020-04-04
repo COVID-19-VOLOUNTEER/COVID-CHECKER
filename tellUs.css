@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Product Sans Regular";
+    src: url(product-sans/Product\ Sans\ Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    min-height: 300px;
+    margin: 0 auto;
+}
+.about-div { 
+    padding: 10px;
+    max-width: 40%;
+    min-height: 300px;
+}
+.about-form h2 {
+    margin-top: 0;
+    color: rgb(75, 73, 73);
+    font-family: serif;
+}
+.about-div p {
+    color: rgb(189, 39, 39);
+    word-spacing: 20px;
+    
+}
+.about-form {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.input-fields {
+    display: flex;
+    flex-direction: column;
+}
+.input-fields .input {
+    margin: 10px 0;
+    border: 0; 
+    border-bottom: 2px solid rgb(75, 73, 73);
+    padding: 10px; 
+    width: 100%;
+    color: rgb(75, 73, 73);
+    outline: none;
+}
+.phone {
+    display: inline-block;
+}
+.about-div a{
+    text-decoration: none;
+    background: rgb(20, 105, 54);
+    color: white;
+    padding: 8px 0;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    vertical-align: central;
+}
+.about-div a:hover{
+    background: rgb(34, 175, 91);
+}
+.container .about-image {
+    flex: 1;
+    max-width: 40%;
+}
+.about-image .img {
+    width: 100%;
+    height: 400px;
+}
+
+.age-phone, .state-local-govt {
+    display: flex;
+    
+}
+#age, #state {
+    width: 20%;
+    margin-right: 30px;
+}
+#phone, #local-govt {
+    width: 65%;
+    display: inline-block;
+}
+#listid {
+    -webkit-appearance: none;
+}
+select {
+    color: black;
+    width: 9%;
+    margin-right: 0;
+    height: 47px;
+    outline: none;
+    border: 0; 
+    border-bottom: 2px solid rgb(75, 73, 73);
+    padding: 10px; 
+    background: transparent;
+}
+optgroup {
+    color: red;
+    width: auto;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: rgb(54, 42, 27);
+    width: 100%;
+    color: white;
+    font-family: serif;
+}
+
+
